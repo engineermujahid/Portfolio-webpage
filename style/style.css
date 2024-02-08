@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#home {
+    background-image: url("../images/bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#html {
+    background: conic-gradient(#a5aa6a 324deg, #ededed 0deg);
+}
+
+#css {
+    background: conic-gradient(#a5aa6a 288deg, #ededed 0deg);
+}
+
+#bootstrap {
+    background: conic-gradient(#a5aa6a 288deg, #ededed 0deg);
+}
+
+#tailwind {
+    background: conic-gradient(#a5aa6a 270deg, #ededed 0deg);
+}
+
+#js {
+    background: conic-gradient(#a5aa6a 252deg, #ededed 0deg);
+}
