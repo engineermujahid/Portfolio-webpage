@@ -9,26 +9,25 @@
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style/style.css">
-    <title>Document</title>
+    <title>Portfolio | Mujahid Hussain</title>
 </head>
 
 <body>
-    <header class="grid grid-sm px-10 bg-[#4a4e69] h-14 fixed top-0 z-20">
-        <div class="flex justify-between w-screen leading-[56px]">
-
-            <div>
-                <h1 class="text-3xl leading-[56px] text-[#f2e9e4] font-bold">Mujahid Hussain</h1>
+    <header class="bg-[#4a4e69] fixed top-0 z-20">
+        <div class="grid grid-cols-3 w-screen leading-[56px]">
+            <div class=" col-span-1">
+                <h1 class="text-3xl leading-[56px] text-[#f2e9e4] font-bold ms-8">Mujahid</h1>
             </div>
-            <header class="">
+            <div class="hidden md:block col-span-2 ms-auto overflow-hidden">
                 <ul class="mr-20">
                     <li class="inline">
                         <a class="inline-block text-[#f2e9e4] px-4 text-lg leading-[56px] hover:text-[#4a4e69] hover:bg-[whitesmoke]"
                             href="#home">Home</a>
                     </li>
-                    <li class="inline">
+                    <!-- <li class="inline">
                         <a class="inline-block text-[#f2e9e4] px-4 text-lg leading-[56px] hover:text-[#4a4e69] hover:bg-[whitesmoke]"
                             href="#about">About</a>
-                    </li>
+                    </li> -->
                     <li class="inline">
                         <a class="inline-block text-[#f2e9e4] px-4 text-lg leading-[56px] hover:text-[#4a4e69] hover:bg-[whitesmoke]"
                             href="#skills">Skills</a>
@@ -38,97 +37,134 @@
                             href="#services">Services</a>
                     </li>
 
-                    <li class="inline">
+                    <!-- <li class="inline">
                         <a class="inline-block text-[#f2e9e4] px-4 text-lg leading-[56px] hover:text-[#4a4e69] hover:bg-[whitesmoke]"
                             href="#projects">Projects</a>
-                    </li>
+                    </li> -->
                     </li>
                     <li class="inline">
                         <a class="inline-block text-[#f2e9e4] px-4 text-lg leading-[56px] hover:text-[#4a4e69] hover:bg-[whitesmoke]"
                             href="#contact">Contact</a>
                     </li>
                 </ul>
-            </header>
+            </div>
         </div>
     </header>
 
     <main class="">
-        <div class="h-screen" id="home">
-            <div class="mx-40 h-full flex text-white flex-col justify-center">
-                <h1 class="text-xl text-[#b1b493] mb-2">Hello! This is Mujahid</h1>
-                <h1 class="text-4xl font-bold text-[#b1b493] mb-2">Creative Web &amp; Mobile App Developer</h1>
-                <h1 class="text-4xl font-bold text-[#b1b493] mb-3">We Design &amp; Build Brands</h1>
-                <p>
-                    <button type="button"
-                        class="text-[#b1b493] me-3 font-normal py-2 px-3 rounded transition duration-300 ease-in-out focus:outline-none focus:shadow-outline border-2 border-[#b1b493] hover:bg-[#b1b493] hover:text-white">
-                        <a href="#contect">Hire me</a></button>
-                    <button type="button"
-                        class="text-[#b1b493] font-normal py-2 px-3 rounded transition duration-300 ease-in-out focus:outline-none focus:shadow-outline border-2 border-[#b1b493] hover:bg-[#b1b493] hover:text-white">
-                        <a href="#">Download CV</a></button>
-                </p>
+        <div class="grid grid-cols-2" id="home">
+            <div class="col-span-2 max-w-[330px] sm:max-w-[400px] md:max-w-[500px] mx-12 lg:ms-32">
+                <div class="flex text-white flex-col justify-center h-screen">
+
+                    <h1 class="text-xl text-[#b1b493] mb-2">Hello! This is Mujahid</h1>
+                    <h1 class="text-2xl md:text-4xl font-semibold md:font-bold text-[#b1b493] mb-3">Creative Web &amp;
+                        Mobile App Developer</h1>
+                    <h1 class="text-2xl md:text-3xl font-semibold md:font-bold text-[#b1b493] mb-3">We Design &amp;
+                        Build Brands</h1>
+                    <p>
+                        <button type="button"
+                            class="text-[#b1b493] me-3 font-normal py-2 px-3 rounded transition duration-300 ease-in-out focus:outline-none focus:shadow-outline border-2 border-[#b1b493] hover:bg-[#b1b493] hover:text-white">
+                            <a href="#contect">Hire me</a></button>
+                        <button type="button"
+                            class="text-[#b1b493] font-normal py-2 px-3 rounded transition duration-300 ease-in-out focus:outline-none focus:shadow-outline border-2 border-[#b1b493] hover:bg-[#b1b493] hover:text-white">
+                            <a href="#">Download CV</a></button>
+                    </p>
+                </div>
+            </div>
+            <div></div>
+        </div>
+
+        <div class="bg-[#f8f9fa]">
+            <div class="container px-5 py-16 mx-auto">
+                <div class="flex flex-wrap text-center">
+                    <div class="p-4 sm:w-1/4 w-1/2">
+                        <h2 class="font-medium sm:text-4xl text-3xl">40</h2>
+                        <p class="leading-relaxed">Projects</p>
+                    </div>
+                    <div class="p-4 sm:w-1/4 w-1/2">
+                        <h2 class="font-medium sm:text-4xl text-3xl">25</h2>
+                        <p class="leading-relaxed">Happy Clints</p>
+                    </div>
+                    <div class="p-4 sm:w-1/4 w-1/2">
+                        <h2 class="font-medium sm:text-4xl text-3xl">200</h2>
+                        <p class="leading-relaxed">Students</p>
+                    </div>
+                    <div class="p-4 sm:w-1/4 w-1/2">
+                        <h2 class="font-medium sm:text-4xl text-3xl">3</h2>
+                        <p class="leading-relaxed">Years Experience</p>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="my-44"></div>
+        <div class=" bg-[#fff]  my-8" id="about">
+            <div class="grid grid-cols-2 mx-auto md:mx-10 lg:mx-24 xl:mx-36">
+                <div class="col-span-2 md:col-span-1 mx-4 order-last md:order-first">
+                    <div class="mb-6">
+                        <img src="./images/myPic.jpg" class="w-[370px] mx-auto md:w-full max-w-[410px]" alt="">
+                    </div>
+                </div>
 
-        <div class="h-[90vh] bg-[#fff] mx-36 mb-8" id="about">
-            <div class="flex items-center">
-                <img src="./images/pic.jpg" class="h-[90vh]" alt="">
-                <div class="mx-16 px-8">
-                    <p class="text-[#a5aa6a] mb-2 text-sm font-bold">MY INTRO</p>
-                    <p class="border-b-2 border-[#a5aa6a] mb-4 w-1/5"></p>
-                    <h1 class="font-semibold text-3xl mb-5">About Me</h1>
-                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatem alias
-                        odio!
-                        Ea totam
-                        facere laudantium delectus, qui quisquam nihil minus, deserunt nulla non at, quaerat nisi!
-                        Magnam, exercitationem repudiandae!</p>
+                <div class="col-span-2 md:col-span-1 px-6 md:max-w-[470px] md:px-0 py-6">
+                    <div>
+                        <p class="text-[#a5aa6a] mb-1 text-sm font-bold underline decoration-4 underline-offset-4">MY
+                            INTRO</p>
+                        <h1 class="font-semibold text-3xl mb-3">About Me</h1>
+                        <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatem alias
+                            odio!
+                            Ea totam
+                            facere laudantium delectus, qui quisquam nihil minus, deserunt nulla non at, quaerat nisi!
+                            Magnam, exercitationem repudiandae!</p>
 
-                    <ul class="my-6">
-                        <li class="mb-2">
-                            <span class="inline-block w-32 font-semibold">Name:</span>
-                            <span class="font-bold text-[#a5aa6a]">Mujahid Hussain</span>
-                        </li>
-                        <li class="mb-2">
-                            <span class="inline-block w-32 font-semibold">DOB:</span>
-                            <span class="font-bold text-[#a5aa6a]">January 01, 1990</span>
-                        </li>
-                        <li class="mb-2">
-                            <span class="inline-block w-32 font-semibold">Address:</span>
-                            <span class="font-bold text-[#a5aa6a]">Madina Town Faisalabad, Pakistan</span>
-                        </li>
-                        <li class="mb-2">
-                            <span class="inline-block w-32 font-semibold">Zip code</span>
-                            <span class="font-bold text-[#a5aa6a]">38000</span>
-                        </li>
-                        <li class="mb-2">
-                            <span class="inline-block w-32 font-semibold">Email:</span>
-                            <span class="font-bold text-[#a5aa6a]">mujahidhussainedu@gmail.com</span>
-                        </li>
-                        <li class="mb-2">
-                            <span class="inline-block w-32 font-semibold">Phone:</span>
-                            <span class="font-bold text-[#a5aa6a]">+92-336-656-1311</span>
-                        </li>
-                    </ul>
-
-                    <div class="flex py-4">
-                        <div class=" w-1/4 border-l border-[#a5aa6a] ">
-                            <i
-                                class=" ms-2 fa-solid fa-headphones-simple bg-[#a5aa6a] px-[6px] py-1 rounded-full text-sm"></i>
-                            <span class="text">Music</span>
-                        </div>
-                        <div class=" w-1/4  border-l border-[#a5aa6a] ">
-                            <i
-                                class="ms-2 fa-solid fa-business-time bg-[#a5aa6a] px-[6px] py-1 rounded-full text-sm"></i>
-                            <span class="text">Travel</span>
-                        </div>
-                        <div class=" w-1/4  border-l border-[#a5aa6a] ">
-                            <i class="ms-2 fa-solid fa-film bg-[#a5aa6a] px-[6px] py-1 rounded-full text-sm"></i>
-                            <span class="text">Movie</span>
-                        </div>
-                        <div class=" w-1/4  border-l border-[#a5aa6a] ">
-                            <i class="ms-2 fa-solid fa-basketball bg-[#a5aa6a] px-[6px] py-1 rounded-full text-sm"></i>
-                            <span class="text">Sports</span>
+                        <ul class="my-6">
+                            <li class="mb-1">
+                                <span class="inline-block w-40 md:w-20 lg:w-32 font-semibold">Name:</span>
+                                <span class="font-bold text-[#a5aa6a]">Mujahid Hussain</span>
+                            </li>
+                            <li class="mb-1">
+                                <span class="inline-block w-40 md:w-20 lg:w-32 font-semibold">DOB:</span>
+                                <span class="font-bold text-[#a5aa6a]">January 01, 1990</span>
+                            </li>
+                            <li class="mb-1">
+                                <span class="inline-block w-40 md:w-20 lg:w-32 font-semibold">Address:</span>
+                                <span class="font-bold text-[#a5aa6a]">Madina Town Faisalabad, Pakistan</span>
+                            </li>
+                            <li class="mb-1">
+                                <span class="inline-block w-40 md:w-20 lg:w-32 font-semibold">Zip code</span>
+                                <span class="font-bold text-[#a5aa6a]">38000</span>
+                            </li>
+                            <li class="mb-1">
+                                <span class="inline-block w-40 md:w-20 lg:w-32 font-semibold">Email:</span>
+                                <span class="font-bold text-[#a5aa6a]">mujahidhussainedu@gmail.com</span>
+                            </li>
+                            <li class="mb-1">
+                                <span class="inline-block w-40 md:w-20 lg:w-32 font-semibold">Phone:</span>
+                                <span class="font-bold text-[#a5aa6a]">+92-336-656-1311</span>
+                            </li>
+                        </ul>
+                        <div class="min-[769px]:hidden min-[920px]:block">
+                            <div class="flex py-4">
+                                <div class=" w-1/4 border-l border-[#a5aa6a] ">
+                                    <i
+                                        class=" ms-2 fa-solid fa-headphones-simple bg-[#a5aa6a] px-[6px] py-1 rounded-full text-sm"></i>
+                                    <span class="text">Music</span>
+                                </div>
+                                <div class=" w-1/4  border-l border-[#a5aa6a] ">
+                                    <i
+                                        class="ms-2 fa-solid fa-business-time bg-[#a5aa6a] px-[6px] py-1 rounded-full text-sm"></i>
+                                    <span class="text">Travel</span>
+                                </div>
+                                <div class=" w-1/4  border-l border-[#a5aa6a] ">
+                                    <i
+                                        class="ms-2 fa-solid fa-film bg-[#a5aa6a] px-[6px] py-1 rounded-full text-sm"></i>
+                                    <span class="text">Movie</span>
+                                </div>
+                                <div class=" w-1/4  border-l border-[#a5aa6a] ">
+                                    <i
+                                        class="ms-2 fa-solid fa-basketball bg-[#a5aa6a] px-[6px] py-1 rounded-full text-sm"></i>
+                                    <span class="text">Sports</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -136,12 +172,17 @@
         </div>
 
         <div class="bg-[#f8f9fa] py-28" id="skills">
-            <h1 class="font-semibold text-[#a5aa6a] text-center text-sm mb-1.5">SKILLS</h1>
-            <h2 class="mb-6 text-3xl text-center font-semibold">My Skills</h2>
-            <p class="text-[#777777] text-center mb-4">Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia</p>
-            <div class="mx-56">
-                <div class="grid grid-cols-3 gap-10">
+            <div class="px-9">
+                <h1 class="font-semibold text-[#a5aa6a] text-center text-sm mb-1.5">SKILLS</h1>
+                <h2 class="mb-6 text-3xl text-center font-semibold">My Skills</h2>
+                <p class="text-[#777777] text-center mb-4">Far far away, behind the word mountains, far from the
+                    countries
+                    Vokalia and Consonantia</p>
+            </div>
+
+            <div class="grid grid-cols-6 gap-10 mx-auto md:w-[720px] xl:w-[1080px]">
+                <div
+                    class="col-span-6 md:col-span-3 xl:col-span-2 mx-auto border-2 border-gray-300 rounded-lg shadow-xl">
                     <div class="container flex flex-col items-center rounded-lg bg-[#fff] h-80 w-80">
                         <h2 class="font-bold text-center my-4 text-xl">CSS</h2>
                         <div class="flex justify-center items-center relative h-60 w-60 rounded-full" id="css">
@@ -150,6 +191,10 @@
                             <span class=" absolute text-lg text-[#a5aa6a]">80%</span>
                         </div>
                     </div>
+                </div>
+                <div
+                    class="col-span-6 md:col-span-3 xl:col-span-2 mx-auto border-2 border-gray-300 shadow-xl rounded-lg">
+
                     <div class="container flex flex-col items-center rounded-lg bg-[#fff] h-80 w-80">
                         <h2 class="font-bold text-center my-4 text-xl">HTML</h2>
                         <div class="flex justify-center items-center relative h-60 w-60 rounded-full" id="html">
@@ -158,6 +203,10 @@
                             <span class=" absolute text-lg text-[#a5aa6a]">90%</span>
                         </div>
                     </div>
+                </div>
+                <div
+                    class="col-span-6 md:col-span-3 xl:col-span-2 mx-auto border-2 border-gray-300 shadow-xl rounded-lg">
+
                     <div class="container flex flex-col items-center rounded-lg bg-[#fff] h-80 w-80">
                         <h2 class="font-bold text-center my-4 text-xl">Bootstrap</h2>
                         <div class="flex justify-center items-center relative h-60 w-60 rounded-full" id="bootstrap">
@@ -166,6 +215,11 @@
                             <span class=" absolute text-lg text-[#a5aa6a]">80%</span>
                         </div>
                     </div>
+                </div>
+                <div
+                    class="col-span-6 md:col-span-3 xl:col-span-2 mx-auto border-2 border-gray-300 shadow-xl rounded-lg">
+
+
                     <div class="container flex flex-col items-center rounded-lg bg-[#fff] h-80 w-80">
                         <h2 class="font-bold text-center my-4 text-xl">tailwind CSS</h2>
                         <div class="flex justify-center items-center relative h-60 w-60 rounded-full" id="tailwind">
@@ -174,6 +228,10 @@
                             <span class=" absolute text-lg text-[#a5aa6a]">75%</span>
                         </div>
                     </div>
+                </div>
+                <div
+                    class="col-span-6 md:col-span-3 xl:col-span-2 mx-auto border-2 border-gray-300 shadow-xl rounded-lg">
+
                     <div class="container flex flex-col items-center rounded-lg bg-[#fff] h-80 w-80">
                         <h2 class="font-bold text-center my-4 text-xl">JavaScript</h2>
                         <div class="flex justify-center items-center relative h-60 w-60 rounded-full" id="js">
@@ -186,57 +244,56 @@
             </div>
         </div>
 
-        <div class="p-28" id="services">
-            <h1 class="font-semibold text-[#a5aa6a] text-center text-sm mb-1.5">I am good at</h1>
-            <h2 class="mb-6 text-3xl text-center font-semibold">We do awesome services for our clients</h2>
-            <p class="text-[#777777] text-center mb-4">Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia</p>
-            <div class="mx-32">
-                <div class="grid grid-cols-4 gap-5">
-                    <div class="rounded-lg shadow-md my-3 py-10 px-6 w-60 h-60 hover:bg-[#a5aa6a] hover:text-white">
-                        <h3 class="mb-4 text-2xl font-bold">Web Design <br>
-                            <span class="block text-xl font-normal">A small river named Duden flows by their place and
-                                supplies.</span>
-                        </h3>
-                    </div>
-                    <div class="rounded-lg shadow-md my-3 py-10 px-6 w-60 h-60 hover:bg-[#a5aa6a] hover:text-white">
-                        <h3 class="mb-4 text-2xl font-bold">Web Design <br>
-                            <span class="block text-xl font-normal">A small river named Duden flows by their place and
-                                supplies.</span>
-                        </h3>
-                    </div>
-                    <div class="rounded-lg shadow-md my-3 py-10 px-6 w-60 h-60 hover:bg-[#a5aa6a] hover:text-white">
-                        <h3 class="mb-4 text-2xl font-bold">Web Design <br>
-                            <span class="block text-xl font-normal">A small river named Duden flows by their place and
-                                supplies.</span>
-                        </h3>
-                    </div>
-                    <div class="rounded-lg shadow-md my-3 py-10 px-6 w-60 h-60 hover:bg-[#a5aa6a] hover:text-white">
-                        <h3 class="mb-4 text-2xl font-bold">Web Design <br>
-                            <span class="block text-xl font-normal">A small river named Duden flows by their place and
-                                supplies.</span>
-                        </h3>
-                    </div>
-                    <div class="rounded-lg shadow-md my-3 py-10 px-6 w-60 h-60 hover:bg-[#a5aa6a] hover:text-white">
-                        <h3 class="mb-4 text-2xl font-bold">Web Design <br>
-                            <span class="block text-xl font-normal">A small river named Duden flows by their place and
-                                supplies.</span>
-                        </h3>
-                    </div>
-                    <div class="rounded-lg shadow-md my-3 py-10 px-6 w-60 h-60 hover:bg-[#a5aa6a] hover:text-white">
-                        <h3 class="mb-4 text-2xl font-bold">Web Design <br>
-                            <span class="block text-xl font-normal">A small river named Duden flows by their place and
-                                supplies.</span>
-                        </h3>
-                    </div>
+        <div class="py-28" id="services">
+            <div class="px-9">
+                <h1 class="font-semibold text-[#a5aa6a] text-center text-sm mb-1.5">I am good at</h1>
+                <h2 class="mb-6 text-3xl text-center font-semibold">We do awesome services for our clients</h2>
+                <p class="text-[#777777] text-center mb-6">Far far away, behind the word mountains, far from the
+                    countries
+                    Vokalia and Consonantia</p>
+            </div>
+
+            <div class="grid grid-cols-6 gap-10 mx-auto md:w-[720px] xl:w-[1080px]">
+                <div
+                    class="col-span-6 md:col-span-3 xl:col-span-2 mx-auto rounded-lg border-2 border-gray-300 h-64 w-80 py-10 px-6
+                    hover:bg-[#a5aa6a] hover:text-white transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-105 duration-300">
+                    <h3 class="mb-4 text-2xl font-bold">Web Design
+                    </h3>
+                    <p class="text-xl font-normal">A small river named Duden flows by their place and
+                        supplies.</p>
                 </div>
+                <div
+                    class="col-span-6 md:col-span-3 xl:col-span-2 mx-auto rounded-lg border-2 border-gray-300 h-64 w-80 py-10 px-6
+                    hover:bg-[#a5aa6a] hover:text-white transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-105 duration-300">
+                    <h3 class="mb-4 text-2xl font-bold">Web Design
+                    </h3>
+                    <p class="text-xl font-normal">A small river named Duden flows by their place and
+                        supplies.</p>
+                </div>
+                <div
+                    class="col-span-6 md:col-span-3 xl:col-span-2 mx-auto rounded-lg border-2 border-gray-300 h-64 w-80 py-10 px-6
+                    hover:bg-[#a5aa6a] hover:text-white transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-105 duration-300">
+                    <h3 class="mb-4 text-2xl font-bold">Web Design
+                    </h3>
+                    <p class="text-xl font-normal">A small river named Duden flows by their place and
+                        supplies.</p>
+                </div>
+                <div
+                    class="col-span-6 md:col-span-3 xl:col-span-2 mx-auto rounded-lg border-2 border-gray-300 h-64 w-80 py-10 px-6
+                    hover:bg-[#a5aa6a] hover:text-white transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-105 duration-300">
+                    <h3 class="mb-4 text-2xl font-bold">Web Design
+                    </h3>
+                    <p class="text-xl font-normal">A small river named Duden flows by their place and
+                        supplies.</p>
+                </div>
+
             </div>
         </div>
 
         <div class="" id="projects">
-            <section class="hireme bg-[#b1b493] py-10 px-40">
-                <div class="grid grid-cols-12 gap-4">
-                    <div class="col-span-6 text-white">
+            <section class="bg-[#b1b493] py-5 md:py-10 px-4 md:px-16 lg:px-36 ">
+                <div class="grid grid-cols-2">
+                    <div class="col-span-2 text-white w-full sm:w-[480px] sm:col-span-1 z-10">
                         <h2 class="text-3xl mb-2 font-bold">Have a project on your mind.</h2>
                         <p class="mb-4 text-base">A small river named Duden flows by their place and supplies it with
                             the necessary
@@ -249,78 +306,38 @@
                             </a>
                         </button>
                     </div>
-                    <div></div>
-                    <div class="col-span-4">
-                        <h2 class="text-white">Place image here.</h2>
-                        <!-- <img src="images/author.png" class="img-fluid" alt=""> -->
+
+                    <div class="hidden sm:block relative">
+                        <img src="/images/myPic(1).png" class="absolute sm:w-[300px] sm:top-[-110px] sm:left-[25px] md:left-[80px] min-[900px]:w-[360px] 
+                            min-[900px]:top-[-150px] xl:left-[140px]" alt="">
                     </div>
                 </div>
             </section>
         </div>
-        <div class="pt-28" id="contact">
-            <div class="mx-44">
-
-                <div class="text-center w-[600px] mx-auto mb-12">
-
-                    <h2 class="text-[#b1b493] text-sm font-semibold mb-1">CONTACT US</h2>
-                    <h2 class="mb-6 text-4xl font-semibold">Have a Project?</h2>
-                    <p class="text-[#999]">Far far away, behind the word mountains, far from the countries Vokalia and
-                        Consonantia
-                    </p>
-                </div>
-                <div class="grid grid-cols-12 gap-4">
-                    <div class="col-span-12 lg:col-span-8 px-4">
-                        <div class="bg-[#f8f9fa] p-12">
-                            <form action="#" class="">
-                                <div class="grid grid-cols-2 gap-4">
-                                    <div class="col-span-1">
-                                        <input type="text" id="name" name="name"
-                                            class="w-full bg-white border-2 border-[#b1b493] text-base py-1 px-3 leading-8"
-                                            placeholder="Your Name">
-
-                                    </div>
-                                    <div class="col-span-1">
-                                        <input type="email" id="email" name="email"
-                                            class="w-full bg-white border-2 border-[#b1b493] text-base py-1 px-3 leading-8"
-                                            placeholder="Your Email">
-                                    </div>
-                                    <div class="col-span-2">
-                                        <input type="text" id="subject" name="subject"
-                                            class="w-full bg-white border-2 border-[#b1b493] text-base py-1 px-3 leading-8"
-                                            placeholder="Subject">
-                                    </div>
-                                    <div class="col-span-2">
-                                        <textarea name="message" id="message" cols="30" rows="7"
-                                            class="w-full bg-white border-2 border-[#b1b493] text-base py-1 px-3 leading-8"
-                                            placeholder="Message"></textarea>
-                                    </div>
-                                    <div class="">
-                                        <button type="button" href="#contact"
-                                            class="bg-[#b1b493] font-semibold py-3 px-10 rounded focus:outline-none focus:shadow-outline  text-white ">
-                                            <a href="#contact">
-                                                Send Message
-                                            </a>
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-
-                    </div>
-                    <div class="col-span-4">
-                        <div class="flex flex-col justify-around h-full">
-
+        <div class="pt-28 mb-8" id="contact">
+            <div class="text-center max-w-[600px] mx-auto mb-12">
+                <h2 class="text-[#b1b493] text-sm font-semibold mb-1">CONTACT US</h2>
+                <h2 class="mb-6 text-4xl font-semibold">Have a Project?</h2>
+                <p class="text-[#999]">Far far away, behind the word mountains, far from the countries Vokalia and
+                    Consonantia </p>
+            </div>
+            <div>
+                <div class="mx-auto w-[300px] md:w-[600px] lg:w-[900px] xl:w-[1200px]">
+                    <div class="grid grid-cols-4 gap-4 mb-8">
+                        <div class="col-span-4 md:col-span-2 xl:col-span-1 xl:mx-auto">
                             <div class="flex">
                                 <div
                                     class="bg-[#b1b493] text-white w-[50px] h-[50px] text-center leading-[50px] rounded-full">
-                                    <i class="fa-solid fa-location-dot text-xl"></i>
+                                    <i class="fa-solid fa-earth-americas text-lg"></i>
                                 </div>
                                 <div class="flex flex-col ms-3">
 
-                                    <h2 class="text-2xl font-bold">Address:</h2>
-                                    <p class="text-[#999] text-base">P-40 Madina Town, Faisalabad</p>
+                                    <h2 class="text-2xl font-bold">Website:</h2>
+                                    <p class="text-[#999] text-base">yoursite.com</p>
                                 </div>
                             </div>
+                        </div>
+                        <div class="col-span-4 md:col-span-2 xl:col-span-1 xl:mx-auto">
                             <div class="flex">
                                 <div
                                     class="bg-[#b1b493] text-white w-[50px] h-[50px] text-center leading-[50px] rounded-full">
@@ -332,37 +349,103 @@
                                     <p class="text-[#b1b493] text-base">+92-336-656-1311</p>
                                 </div>
                             </div>
+                        </div>
+                        <div class="col-span-4 md:col-span-2 xl:col-span-1  xl:mx-auto">
                             <div class="flex">
                                 <div
                                     class="bg-[#b1b493] text-white w-[50px] h-[50px] text-center leading-[50px] rounded-full">
                                     <i class="fa-solid fa-paper-plane text-lg"></i>
                                 </div>
                                 <div class="flex flex-col ms-3">
-
                                     <h2 class="text-2xl font-bold">Email:</h2>
                                     <p class="text-[#999] text-base">mujahidhussainedu@gmail.com</p>
                                 </div>
                             </div>
+                        </div>
+
+                        <div class="col-span-4 md:col-span-2 xl:col-span-1 xl:mx-auto">
                             <div class="flex">
                                 <div
                                     class="bg-[#b1b493] text-white w-[50px] h-[50px] text-center leading-[50px] rounded-full">
-                                    <i class="fa-solid fa-earth-americas text-lg"></i>
+                                    <i class="fa-solid fa-location-dot text-xl"></i>
                                 </div>
                                 <div class="flex flex-col ms-3">
 
-                                    <h2 class="text-2xl font-bold">AWebsitw:</h2>
-                                    <p class="text-[#999] text-base">yoursite.com</p>
+                                    <h2 class="text-2xl font-bold">Address:</h2>
+                                    <p class="text-[#999] text-base">P-40 Madina Town, Faisalabad</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="mx-auto w-[80%] md:w-[600px] lg:w-[900px]">
+            <div class="bg-[#f8f9fa] p-12">
+                <form action="#" class="">
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="col-span-2 md:col-span-1">
+                            <input type="text" id="name" name="name"
+                                class="w-full bg-white border-2 border-[#b1b493] text-base py-1 px-3 leading-8"
+                                placeholder="Your Name">
 
-
+                        </div>
+                        <div class="col-span-2 md:col-span-1">
+                            <input type="email" id="email" name="email"
+                                class="w-full bg-white border-2 border-[#b1b493] text-base py-1 px-3 leading-8"
+                                placeholder="Your Email">
+                        </div>
+                        <div class="col-span-2">
+                            <input type="text" id="subject" name="subject"
+                                class="w-full bg-white border-2 border-[#b1b493] text-base py-1 px-3 leading-8"
+                                placeholder="Subject">
+                        </div>
+                        <div class="col-span-2">
+                            <textarea name="message" id="message" cols="30" rows="7"
+                                class="w-full bg-white border-2 border-[#b1b493] text-base py-1 px-3 leading-8"
+                                placeholder="Message"></textarea>
+                        </div>
+                        <div class="col-span-2 ms-auto">
+                            <button type="button" href="#contact"
+                                class="bg-[#b1b493] font-semibold py-3 px-10 rounded focus:outline-none focus:shadow-outline  text-white ">
+                                <a href="#contact">
+                                    Send Message
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
     </main>
 
-    <footer>
+    <footer class="bg-[#4a4e69]">
+        <div class="grid grid-cols-2 mx-8">
+            <div class="col-span-2 sm:col-span-1">
+                <p class="text-[#f2e9e4] text-center text-lg sm:text-left py-3">&copy; 2024. All rights are reserved.
+                </p>
+            </div>
+            <div class="col-span-2 sm:col-span-1 mx-auto sm:mx-0 sm:ms-auto">
+                <div className=''>
+                    <span className="inline-block mx-2">
+                        <i class="fa-brands fa-linkedin text-[#f2e9e4] text-2xl py-3 mx-3"></i>
+                    </span>
+                    <span className="d-inline-block mx-2">
+                        <i class="fa-brands fa-snapchat text-[#f2e9e4] text-2xl py-3 mx-3"></i>
+                    </span>
+                    <span className="d-inline-block mx-2">
+                        <i class="fa-brands fa-twitter text-[#f2e9e4] text-2xl py-3 mx-3"></i>
+                    </span>
+                    <span className="d-inline-block mx-2">
+                        <i class="fa-brands fa-github text-[#f2e9e4] text-2xl py-3 mx-3"></i>
+                    </span>
+                    <span className="d-inline-block mx-2">
+                        <i class="fa-brands fa-youtube text-[#f2e9e4] text-2xl py-3 mx-3"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
 
     </footer>
 </body>

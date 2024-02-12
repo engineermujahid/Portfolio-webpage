@@ -5,10 +5,13 @@
 }
 
 #home {
-    background-image: url("../images/bg2.png");
+    background-image: url("../images/bg2.jpg");
     background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
-    background-position: center;
+    height: 100vh;
+    background-color: #464646;
+    background-attachment: fixed;
 }
 
 #html {
