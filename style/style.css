@@ -11,7 +11,6 @@
     background-size: cover;
     height: 100vh;
     background-color: #464646;
-    background-attachment: fixed;
 }
 
 #html {
@@ -32,4 +31,12 @@
 
 #js {
     background: conic-gradient(#a5aa6a 252deg, #ededed 0deg);
+}
+
+#react {
+    background: conic-gradient(#a5aa6a 252deg, #ededed 0deg);
+}
+
+#firebase {
+    background: conic-gradient(#a5aa6a 180deg, #ededed 0deg);
 }
